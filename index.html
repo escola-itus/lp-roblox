@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -14,20 +14,10 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="icon" href="./assets/logo3.png" />
   <link rel="apple-touch-icon" href="./assets/logo3.png" />
-  <title>ITUS Escola</title>
+  <title>Curso de Roblox - Itus |Escola de Tecnologia</title>
 </head>
 
-<style>
-  @media screen and (max-width: 1024px) {
-    .sobre--lista .requisitos--lista {
-      display: block;
-    }
 
-    .sobre--item .requisitos--item {
-      margin-bottom: 1.5rem;
-    }
-  }
-</style>
 
 <body>
   <header id="header">
@@ -116,12 +106,12 @@
     </ul>
   </section>
   <div id="games" class="anchor"></div>
-  <section class="section-container">
 
+  <section id="sobre-section" class="section-container">
     <h2 style="margin-bottom:1rem;">SOBRE O <span>CURSO</span></h2>
 
     <div class="sobre--conteudo">
-      <ul class="sobre--lista">
+      <ul id="lista-sobre" class="sobre--lista">
         <li class="sobre--item">
           <h3 class="sobre--item--titulo">1° Game</h3>
           <img style="height: auto;
@@ -144,15 +134,17 @@
           width: auto;
           max-width: 160px;
           max-height: 160px;" src="./assets/sobre-img-3.PNG" class="sobre--imagem">
-          <p class="sobre--item--texto">1 aula por semana diretamente com o professor</p>
+          <p class="sobre--item--texto">2 aulas de 50 minutos por semana com o professor</p>
         </li>
       </ul>
     </div>
   </section>
+
   <section class="section-container">
     <h2 style="margin-bottom:1rem;" class="requisitos--titulo"><span>COISAS PARA</span> CHECAR</h2>
+
     <div class="requisitos--conteudo">
-      <ul class="requisitos--lista">
+      <ul id="lista-requisitos" class="requisitos--lista">
         <li class="requisitos--item">
           <h3 class="requisitos--item--titulo">Programe-se</h3>
           <img style="height: auto;
@@ -182,30 +174,71 @@
         </li>
       </ul>
     </div>
-    <div class="requisitos--triangulobaixo" id="triangle-bottomleft"></div>
+  </section>
+
+
+  <div class="section-container">
+    <a href="#" class="calendly link-btn-section hvr-ripple-out">
+      <button class="btn-section">Inscrever no curso!</button>
+    </a>
+  </div>
+  <section>
+    <div class="section-container">
+      <h2>Currículo</h2>
+      <p>Assine já nosso plano e não perca essa oportunidade!</p>
+      <div class="price-card">
+        <div class="title">
+          <h3>Curso de Roblox</h3>
+          <p>Traga 3 amigos e ganhe 100% de desconto</p>
+        </div>
+        <ul>
+          <li>8 aulas no conforto da sua casa</li>
+          <li>100 minutos de aula por semana</li>
+          <li>Turmas reduzidas</li>
+          <li>R$ 37,50 por aula</li>
+        </ul>
+        <a href="https://drive.google.com/file/d/1i4T-mESu40yGmSu9qa5NXhRjCVOv-cFX/view?usp=sharing" target="_blank"
+          class="resume">Conheça mais sobre o currículo aqui</a>
+        <div class="price">
+          <h3>R$299,98</h3>
+          <p>R$ 369,80</p>
+        </div>
+        <p class="price-info">ou 3x de R$ 99,98 </p>
+        <a href="#containerForm">
+
+          <button class="calendly price-btn">Garantir minha vaga!</button>
+        </a>
+      </div>
   </section>
 
   <section>
     <div class="section-container">
       <h2>Faça já sua <span>inscrição</span></h2>
       <p>Escolha seu horário!</p>
-      <div class="calendly-desktop">
-        <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget"
-          data-url="https://calendly.com/itus_escola/aula-experimental?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=3f9a15"
-          style="min-width:320px;height:650px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        <!-- Calendly inline widget end -->
-      </div>
-      <div class="calendly-mobile">
-        <!-- Widget de link do Calendly - início -->
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-        <span class="calendly link-btn-section hvr-ripple-out">
-          <button class="calendly btn-section">Venha marcar uma aula experimental!</button>
-        </span>
-        <!-- Widget de link do Calendly - fim -->
-      </div>
+      <section class="price-card" id="formulario">
+        <div id="containerForm">
+          <form
+            action="https://itusescola.us20.list-manage.com/subscribe/post?u=9364d06bfb0deb5bc1f46fcb9&amp;id=55371022d4"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+            target="_blank" novalidate>
+            <input class="form--item" id="name" name="FNAME" type="text" placeholder="Nome do responsável">
+            <input class="form--item" id="email" name="EMAIL" type="EMAIL" placeholder="E-mail do responsável">
+            <input class="form--item" id="number" name="FNUMBER" type="NUMBER" placeholder="Nº Para Contato">
+            <input class="form--item" name="FIDADE" type="NUMBER" placeholder="Idade do Aluno">
+            <select class="form--item" name="FTURMAS" id="turmas">
+              <option value="MM">Aulas às Segundas-feiras | 09:00 - 10:40</option>
+              <option value="MT">Aulas às Segundas-feiras | 17:00 - 18:40</option>
+              <option value="WT">Aulas às Quartas-feiras | 17:00 - 18:40</option>
+              <option value="SM1" selected>Aulas aos Sábados | 08:00 - 09:40</option>
+              <option value="SM2">Aulas aos Sábados | 09:40 - 11:20</option>
+            </select>
+
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                name="b_9364d06bfb0deb5bc1f46fcb9_55371022d4" tabindex="-1" value=""></div>
+            <input id="form-submit-button" class="price-btn" type="submit" value="INSCREVER MEU FILHO">
+          </form>
+        </div>
+      </section>
     </div>
   </section>
   <div id="feedback" class="anchor"></div>
@@ -256,31 +289,7 @@
       </div>
     </div>
   </section>
-  <section>
-    <div class="section-container">
-      <h2>Currículo</h2>
-      <p>Assine já nosso plano e não perca essa oportunidade!</p>
-      <div class="price-card">
-        <div class="title">
-          <h3>Lógica de Programação</h3>
-          <p>20% de desconto</p>
-        </div>
-        <ul>
-          <li>24 aulas no conforto da sua casa</li>
-          <li>50 a 100 minutos de aula por semana</li>
-          <li>Turmas reduzidas</li>
-          <li>R$ 46,75 por aula</li>
-        </ul>
-        <a href="https://drive.google.com/file/d/1i4T-mESu40yGmSu9qa5NXhRjCVOv-cFX/view?usp=sharing" target="_blank"
-          class="resume">Conheça mais sobre o currículo aqui</a>
-        <div class="price">
-          <h3>R$ 1.222,40</h3>
-          <p>R$ 1.400,00</p>
-        </div>
-        <p class="price-info">ou 6x de R$ 187,00 </p>
-        <button class="calendly price-btn">Agende seu horário já!</button>
-      </div>
-  </section>
+
 
   <div id="faq" class="anchor"></div>
   <section>
@@ -353,6 +362,7 @@
               introduzimos Python e C.</p>
           </div>
         </li>
+
       </ul>
   </section>
   <div class="footer">

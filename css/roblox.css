@@ -1,0 +1,40 @@
+@media screen and (max-width: 720px) {
+  #lista-sobre,
+  #lista-requisitos {
+    display: block;
+  }
+
+  #lista-sobre > li,
+  #lista-requisitos > li {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.formulario {
+}
+
+form > input,
+select {
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  height: 2rem;
+  background-color: #f2fff4;
+
+  /* background-color: rgba(0, 255, 0); */
+}
+
+form > input::placeholder {
+  color: #07224b;
+  padding: 0.5rem;
+}
+#form-submit-button {
+  text-align: center;
+  height: 3rem;
+  margin-top: 1rem;
+  width: 40%;
+  font-size: 0.5rem;
+
+  margin: auto auto;
+}
